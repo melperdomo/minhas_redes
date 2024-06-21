@@ -41,6 +41,13 @@ iframe#tela {
     height: 472px;
 }
 
+section#redes_sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 30% ;
+}
+
 section#redes_sociais img {
     width: 70px;
     margin: 5px;
