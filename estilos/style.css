@@ -9,7 +9,6 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
 }
 
 body {
@@ -18,34 +17,10 @@ body {
     background-attachment: fixed;
 }
 
-main {
-    position: relative;
-    height: 100vh;
-}
-
-section#telefone {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
-    background: url(../imagens/frame_iphone.png) no-repeat;
-}
-
-iframe#tela {
-    position: relative;
-    top: 80px;
-    left: 22px;
-    width: 268px;
-    height: 472px;
-}
-
 section#redes_sociais {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding: 10% 30% ;
+    padding-top: 2%;
 }
 
 section#redes_sociais img {
@@ -61,3 +36,23 @@ section#redes_sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
     transition: transform .5s;
 }
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 628px;
+    width: 311px;
+    background: url(../imagens/frame_iphone.png) no-repeat;
+    margin-top: 150px;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 472px;
+}
+
