@@ -2,8 +2,8 @@
 Criei um website com uma tela mobile, para mostrar as minhas redes sociais em uma experiência imersiva, usando `iframes` em HTML.
 
 No código, você vai encontrar o estilo aplicado de duas maneiras:
-1. Direto no ´.html´ de cada página;
-2. Com uma folha de estilo separada para todos os arquivos ´.html´, anexada em cada página.
+1. Direto no `.html` de cada página;
+2. Com uma folha de estilo separada para todos os arquivos `.html`, anexada em cada página.
 
 Eu fiz isso, para que você consiga ter uma experiência completa quando acessar o site pelo GitHub Pages.
 
